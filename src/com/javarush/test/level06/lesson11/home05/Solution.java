@@ -9,16 +9,15 @@ package com.javarush.test.level06.lesson11.home05;
 
 public class Solution
 {
+    public static String s;
     public static void main(String[] args)
     {
-        Idea idea = new Idea();
-
-//        printIdea(idea);
+        printIdea(new Idea());
     }
 
-    public void printIdea(Idea idea)
+    public static void printIdea(Idea idea)
     {
-        idea.getDescription();
+        System.out.println(s = idea.getDescription());
     }
 
     public static class Idea

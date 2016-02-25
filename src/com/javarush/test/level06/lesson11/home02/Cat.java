@@ -10,7 +10,7 @@ import java.util.ArrayList;
 
 public class Cat {
     public Cat() {
-        cats.add(cat);
+//        cats.add();
     }
     public static ArrayList<Cat> cats;
 
